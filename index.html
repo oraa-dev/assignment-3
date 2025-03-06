@@ -8,10 +8,15 @@
     <!-- Font Awesome CDN-->
     <script src="https://kit.fontawesome.com/aaa195dcba.js" crossorigin="anonymous"></script>
 
-    <!-- Google Font CDN -->
+    <!-- ADLaM Google Font  CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+    <!-- Sora Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -27,9 +32,13 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                customyellow: '#FFDC26',
               },
               fontFamily:{
                 adlamdisplay:["ADLaM Display", "system-ui"],
+              },
+              fontFamily:{
+                sora:["Sora", "sans-serif"],  
               }
             }
           }
@@ -38,11 +47,56 @@
 </head>
 <body class="font-adlamdisplay">
     <header>
-        
+        <nav class="font-sora">
+          <div class="navbar bg-[#FFF9F4]">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden md:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Find a pet</a></li>
+                  <li><a>Breeds</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <img src="c1-assets/logo-header.png" alt="">
+              <a class="btn btn-ghost text-xl">Browse<span class="text-[#facc15]">4</span>Pets</a>
+            </div>
+            <div class="navbar-center lg:flex">
+              <ul class="menu menu-horizontal px-1 ">
+                <li><a>Find a pet</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-2">
+              <i class="fa-solid fa-bell"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <button class="btn btn-outline border-customyellow hover:bg-customyellow hover:text-black">Login</button>
+              <a class="btn bg-[#FFDC26] py-1 px-4 text-sm	">Register</a>
+              
+
+            </div>
+          </div>  
+        </nav>
     </header>
 
     <main>
-
+        
 
 
     </main>
