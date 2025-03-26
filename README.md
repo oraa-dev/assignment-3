@@ -3,3 +3,4 @@ I have carefully worked on my assignment to ensure that it is fully mobile respo
 If possible, I would truly appreciate it if my assignment could be reviewed specifically in Mobile S (320x477) using Chrome DevTools, as this resolution best reflects the intended mobile design.
 
 Thank you so much for your time and effort in reviewing my work. I sincerely appreciate the guidance and support!
+![image](https://github.com/user-attachments/assets/cc29c58d-0cff-4620-a623-cdfab30c78f8)
